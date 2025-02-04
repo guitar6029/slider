@@ -36,7 +36,7 @@ function App() {
                   style={{ minWidth: '100%', height: '900px' }}
                 >
                   {item.imageMain ? (
-                    <img className="w-full h-3/4 object-cover" src={item.imageMain} alt={item.productName} />
+                    <img className="w-full h-3/4 object-contain rounded-full" src={item.imageMain} alt={item.productName} />
                   ) : (
                     <div className="w-full h-3/4 flex items-center justify-center bg-gray-200">
                       <span className="text-lg font-bold text-gray-500">Image Not Available</span>
