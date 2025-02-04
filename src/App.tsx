@@ -43,7 +43,7 @@ function App() {
                     </div>
                   )}
                   <span className="sm:text-sm lg:text-lg font-bold text-black">{item.category}</span>
-                  <span className="sm:text-sm lg:text-2xl text-black font-bold">{item.productName} 123</span>
+                  <span className="sm:text-sm lg:text-2xl text-black font-bold">{item.productName}</span>
                   <div className="flex flex-col gap-2 w-full">
                     <span className={`text-xl lg:text-2xl text-black font-bold ${item.salePrice ? 'line-through' : "" }`}>${item.price}</span>
                     {item.salePrice && (
